@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  margin-top: -100px;
+  margin-left: 1.5rem;
+}
+.plant {
+  transform: rotateX(180deg);
+  width: 25%;
+  opacity: 0.3;
+}
+
+.plants-wrapper {
+  width: 95%;
+  margin-left: auto;
+}
+.plants {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b4a40;
+  border-top-left-radius: 65px;
+  border-bottom-left-radius: 65px;
+  margin-bottom: 25px;
+}
+.plants-img {
+  width: 230px;
+  height: 230px;
+  position: relative;
+  right: 22px;
+}
+.plants-details {
+  width: 60%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.plants-title {
+  color: white;
+  margin-bottom: 0;
+}
+.sci-name {
+  color: white;
+  margin-top: 5px;
+}
+.status {
+  width: 80px;
+  border-radius: 12px;
+  background-color: #468773;
+}
+.status p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin: 3px;
+}
+.warning {
+  display: flex;
+  align-items: center;
+  color: #EBB000 !important;
+  padding: 1px;
+}
+.water {
+  width: 18px;
+  padding-left: 2px;
+
+}
+.arrow {
+  align-self: flex-end;
+  margin-right: 1.5rem;
+  margin-top: 50px;
+}
